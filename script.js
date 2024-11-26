@@ -1,5 +1,6 @@
 let userName = prompt ("Hi, who is this?");
-userName ? console.log(`Hello, ${userName}!`) : console.log('Hello!');
+userName ? document.getElementById ('greeting').innerText = 'Hello, ${userName}!':
+document.getElementById('greeting').innerText ="Hello!"
 
 const userQuestion = 'Will I achieve my dreams?';
 console.log(`${userName ? userName : 'User'} asks: ${userQuestion}`);
