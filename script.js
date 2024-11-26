@@ -1,5 +1,5 @@
 let userName = prompt ("Hi, who is this?");
-userName ? document.getElementById ('greeting').innerText = 'Hello, ${userName}!':
+userName ? document.getElementById ('greeting').innerText = `Hello, ${userName}!`:
 document.getElementById('greeting').innerText ="Hello!"
 
 
