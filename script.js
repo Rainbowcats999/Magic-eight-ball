@@ -39,7 +39,8 @@ function shakeMagic8Ball () {
     }
     
     console.log(`The Magic Eight Ball says: ${eightBall}`);
-    
+    document.getElementById('response-text').innerText =`$(Username) has asked the Magic 8 Ball $
+    {userQuestion}. The wise and wordous  8 ball has replied $(eightBall)`
 }
 
 
