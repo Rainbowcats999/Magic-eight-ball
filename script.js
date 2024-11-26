@@ -2,7 +2,9 @@ let userName = prompt("Hi, who is this?");
 userName ? document.getElementById('greeting').innerText = `Hello, ${userName}!`:
 document.getElementById('greeting').innerText ="Hello!"
 
-function shakeMagic8Ball()
+function shakeMagic8Ball(){
+    
+}
 
 
 
