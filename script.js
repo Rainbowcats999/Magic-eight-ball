@@ -1,4 +1,4 @@
-let userName = 'Elizabeth';
+let userName = prompt ("Hi, who is this?");
 userName ? console.log(`Hello, ${userName}!`) : console.log('Hello!');
 
 const userQuestion = 'Will I achieve my dreams?';
