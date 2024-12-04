@@ -1,9 +1,23 @@
+body {
+    background-image:url(/imgs/Galaxy\ night.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+h1 {
+    background: #fff;
+    position: relative;
+}
+
 .container {
     display: flex;
     justify-content: center;
     align-items: center;
     height: 100vh;
-    background-color: #222;
+    background-color: lightblue;
+    border-radius: 100%;
 }
 
 .ball {
@@ -41,4 +55,5 @@
     border: none;
     border-radius: 5px;
     cursor: pointer;
+    position: absolute;
 }
