@@ -1,6 +1,6 @@
 let userName = prompt("Hi, who is this?");
 userName ? document.getElementById('greeting').innerText = `Hello, ${userName}!` :
-  document.getElementById('greeting').innerText = "Hello!"
+  document.getElementById('greeting').innerText = "Hello! Ask a Question!"
 
 function shakeMagic8Ball() {
 
@@ -40,7 +40,8 @@ function shakeMagic8Ball() {
 
   console.log(`The Magic Eight Ball says: ${eightBall}`);
   document.getElementById('response-text').innerText = `${userName} has asked the Magic 8 Ball ${userQuestion}. The wise and wordous  8 ball has replied ${eightBall}`
-  
+  document.getElementById('response-text').classList.add("styling")
+
 }
 
 

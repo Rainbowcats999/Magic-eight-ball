@@ -48,7 +48,7 @@ h1 {
 }
 
 #askButton {
-    margin-top: 20px;
+    margin-top: 300px;
     padding: 10px 20px;
     background-color: #4CAF50;
     color: white;
@@ -57,3 +57,20 @@ h1 {
     cursor: pointer;
     position: absolute;
 }
+
+#askButton:hover {
+    margin-top: 300px;
+    padding: 10px 20px;
+    background-color: #b3ff00;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    position: absolute;
+}
+
+.styling {
+    background-color: #fff;
+    font-size: 20px;
+}
+
